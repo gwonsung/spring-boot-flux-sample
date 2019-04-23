@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sempio.wks.reactive.dao.WksDatabaseDAO">
+  <select id="selectLogList" resultType="java.util.HashMap" parameterType="string">
+  	SELECT LOG_ID AS logId, LOG_CN AS logCn FROM WKS_LOG WHERE WKS_ID = #{psnId} ORDER BY REG_DT
+  </select>
+</mapper>
