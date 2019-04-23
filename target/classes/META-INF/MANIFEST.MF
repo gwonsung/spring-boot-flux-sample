@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: sws-reactive
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Gwonsung Jung(jgwonsung@sempio.com)
+Implementation-Vendor-Id: com.sempio.wks
+Build-Jdk: 1.8.0_181
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/sws-reactive
+Created-By: Maven Integration for Eclipse
+
